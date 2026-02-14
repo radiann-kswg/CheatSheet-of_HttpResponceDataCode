@@ -15,8 +15,8 @@
 
 ## 典型的な原因（よくある勘違い含む）
 
-- 条件ヘッダーを付けずに更新して、意図せず上書きが発生する（逆に、条件必須で 428 を返す設計もある）
-- 304 と混同する（304 は主に GET/HEAD のキャッシュ再検証、412 は更新系の前提条件不一致）
+- 条件ヘッダーを付けずに更新して、意図せず上書きが発生する（逆に、条件必須で [428 Precondition Required](428-precondition-required.md) を返す設計もある）
+- [304 Not Modified](../3xx-redirection/304-not-modified.md) と混同する（[304 Not Modified](../3xx-redirection/304-not-modified.md) は主に GET/HEAD のキャッシュ再検証、412 は更新系の前提条件不一致）
 
 ## 関連ヘッダー / 関連ステータス
 
