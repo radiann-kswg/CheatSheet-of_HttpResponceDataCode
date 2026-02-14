@@ -1,5 +1,47 @@
 # HTTP Status Codes Index
 
+このリポジトリは、HTTP ステータスコードのチートシート資料集です。
+
+- 入口（このページ）: カテゴリ別の目次
+- 個別ページ: `status-codes/` 配下（基本は 1 コード = 1 ファイル）
+
+## 概要（ステータスコードの基本）
+
+MDN ではステータスコードを次のように説明しています。
+
+> "HTTP response status codes indicate whether a specific HTTP request has been successfully completed." \
+> — https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+
+RFC 9110 では、先頭 1 桁がレスポンスのクラス（1xx〜5xx）を定義するとしています。
+
+> "The first digit of the status code defines the class of response." \
+> — https://www.rfc-editor.org/rfc/rfc9110.html
+
+また、RFC 9110 は **未知のステータスコードの扱い**について、クラスを理解し、同クラスの `x00` と等価として扱うことを求めています。
+
+> "treat an unrecognized status code as being equivalent to the x00 status code of that class." \
+> — https://www.rfc-editor.org/rfc/rfc9110.html
+
+ステータスコードは拡張可能であり、割り当ては IANA レジストリで確認できます。
+
+- IANA HTTP Status Code Registry: https://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml
+
+## 運用ヒント（実務での見方）
+
+- **まずクラス（1xx〜5xx）を見る**: 詳細な理由句より、先頭 1 桁で大枠の対応（成功/リダイレクト/エラー種別）を決めやすいです。
+- **未知コードでも落ちない実装にする**: RFC 9110 の要件に従い、未認識コードは同クラスの `x00` 相当として扱う方針が安全です。
+- **プロキシ/エッジ起因のコードを切り分ける**: 例として Cloudflare の `524` は、オリジンに接続できたが所定時間内に HTTP 応答が返らなかった状況を説明しています。
+
+> "Error 524 indicates that Cloudflare successfully connected to the origin web server, but the origin did not provide an HTTP response before the default 120 seconds Proxy Read Timeout." \
+> — https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-5xx-errors/error-524/
+
+## 非標準 / デファクト（実装依存の例）
+
+仕様（RFC / IANA）に載らないコードや、製品固有のコードが使われることがあります。代表例として、nginx の `444` は次のように説明されています。
+
+> "The non-standard code 444 closes a connection without sending a response header." \
+> — http://nginx.org/en/docs/http/ngx_http_rewrite_module.html
+
 ## 1.Information
 
 ### [`100 Continue`](status-codes/1xx-information/100-continue.md)
@@ -9,6 +51,8 @@
 ### [`102 Processing`](status-codes/1xx-information/102-processing.md)
 
 ### [`103 Early Hints`](status-codes/1xx-information/103-early-hints.md)
+
+### [`104 Upload Resumption Supported`](status-codes/1xx-information/104-upload-resumption-supported.md)
 
 ## 2.Success
 
