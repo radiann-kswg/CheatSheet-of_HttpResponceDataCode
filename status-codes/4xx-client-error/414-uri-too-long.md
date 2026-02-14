@@ -16,7 +16,7 @@
 ## 典型的な原因（よくある勘違い含む）
 
 - 「URI 長はブラウザが勝手に落とすだけ」と思い込み、サーバー側制限を見落とす
-- 301/302 の設定ミスでリダイレクトループになり、URI が増殖
+- [301 Moved Permanently](../3xx-redirection/301-moved-permanently.md)/[302 Found](../3xx-redirection/302-found.md) の設定ミスでリダイレクトループになり、URI が増殖
 
 ## 関連ヘッダー / 関連ステータス
 
