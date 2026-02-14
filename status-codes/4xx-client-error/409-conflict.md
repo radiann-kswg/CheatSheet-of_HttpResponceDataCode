@@ -20,7 +20,7 @@
 
 ## 関連ヘッダー / 関連ステータス
 
-- 関連ステータス: `412 Precondition Failed`（条件付きで拒否）, `428 Precondition Required`
+- 関連ステータス: [412 Precondition Failed](412-precondition-failed.md)（条件付きで拒否）, [428 Precondition Required](428-precondition-required.md)
 
 ## 例
 

@@ -20,7 +20,7 @@
 
 ## 関連ヘッダー / 関連ステータス
 
-- 関連ステータス: `100 Continue`（本文送信前の合意）, `206 Partial Content`（部分取得）
+- 関連ステータス: [100 Continue](100-continue.md)（本文送信前の合意）, [206 Partial Content](../2xx-success/206-partial-content.md)（部分取得）
 
 ## 例
 

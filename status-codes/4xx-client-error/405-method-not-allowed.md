@@ -21,7 +21,7 @@
 ## 関連ヘッダー / 関連ステータス
 
 - 関連ヘッダー: `Allow`
-- 関連ステータス: `404 Not Found`, `501 Not Implemented`
+- 関連ステータス: [404 Not Found](404-not-found.md), [501 Not Implemented](../5xx-server-error/501-not-implemented.md)
 
 ## 例
 

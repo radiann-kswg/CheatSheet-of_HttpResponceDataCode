@@ -19,7 +19,7 @@
 
 ## 関連ヘッダー / 関連ステータス
 
-- 関連ステータス: `208 Already Reported`
+- 関連ステータス: [208 Already Reported](208-already-reported.md)
 
 ## 例
 

@@ -22,7 +22,7 @@
 ## 関連ヘッダー / 関連ステータス
 
 - 関連ヘッダー: `Location`
-- 関連ステータス: `307 Temporary Redirect`（一時＋メソッド維持）, `303 See Other`（GET へ変更）, `301 Moved Permanently`
+- 関連ステータス: [307 Temporary Redirect](307-temporary-redirect.md)（一時＋メソッド維持）, [303 See Other](303-see-other.md)（GET へ変更）, [301 Moved Permanently](301-moved-permanently.md)
 
 ## 例
 

@@ -21,7 +21,7 @@
 ## 関連ヘッダー / 関連ステータス
 
 - 関連ヘッダー: `Location`, `Cache-Control`
-- 関連ステータス: `301 Moved Permanently`, `307 Temporary Redirect`, `302 Found`
+- 関連ステータス: [301 Moved Permanently](301-moved-permanently.md), [307 Temporary Redirect](307-temporary-redirect.md), [302 Found](302-found.md)
 
 ## 例
 

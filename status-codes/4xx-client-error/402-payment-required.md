@@ -20,7 +20,7 @@
 
 ## 関連ヘッダー / 関連ステータス
 
-- 関連ステータス: `400 Bad Request`, `403 Forbidden`, `429 Too Many Requests`
+- 関連ステータス: [400 Bad Request](400-bad-request.md), [403 Forbidden](403-forbidden.md), [429 Too Many Requests](429-too-many-requests.md)
 
 ## 例
 

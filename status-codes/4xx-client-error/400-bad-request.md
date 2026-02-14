@@ -22,7 +22,7 @@
 
 ## 関連ヘッダー / 関連ステータス
 
-- 関連ステータス: `422 Unprocessable Content`（構文は正しいが意味的に不正）, `415 Unsupported Media Type`, `413 Content Too Large`
+- 関連ステータス: [422 Unprocessable Content](422-unprocessable-content.md)（構文は正しいが意味的に不正）, [415 Unsupported Media Type](415-unsupported-media-type.md), [413 Content Too Large](413-content-too-large.md)
 
 ## 例
 

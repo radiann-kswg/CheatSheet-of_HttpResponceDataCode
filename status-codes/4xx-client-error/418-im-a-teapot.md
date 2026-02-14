@@ -20,7 +20,7 @@
 
 ## 関連ステータス
 
-- `503 Service Unavailable`（一時的に処理できない場合）
+- [503 Service Unavailable](../5xx-server-error/503-service-unavailable.md)（一時的に処理できない場合）
 
 ## 例
 

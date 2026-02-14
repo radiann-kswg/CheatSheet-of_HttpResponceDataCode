@@ -20,7 +20,7 @@
 ## 関連ヘッダー / 関連ステータス
 
 - 関連ヘッダー: `A-IM`, `IM`, `Delta-Base`, `ETag`, `If-None-Match`
-- 関連ステータス: `200 OK`, `304 Not Modified`
+- 関連ステータス: [200 OK](200-ok.md), [304 Not Modified](../3xx-redirection/304-not-modified.md)
 
 ## 例
 

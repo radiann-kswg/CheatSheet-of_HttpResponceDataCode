@@ -21,7 +21,7 @@
 ## 関連ヘッダー / 関連ステータス
 
 - 関連ヘッダー: `Content-Length`, `Retry-After`（実装により付与される場合）
-- 関連ステータス: `400 Bad Request`, `415 Unsupported Media Type`
+- 関連ステータス: [400 Bad Request](400-bad-request.md), [415 Unsupported Media Type](415-unsupported-media-type.md)
 
 ## 例
 

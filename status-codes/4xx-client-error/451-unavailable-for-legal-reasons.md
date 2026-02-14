@@ -16,7 +16,7 @@
 ## 関連ヘッダー / 関連ステータス
 
 - 関連ヘッダー: `Link`（`rel="blocked-by"` を用いる例がある）
-- 関連ステータス: `403 Forbidden`, `404 Not Found`
+- 関連ステータス: [403 Forbidden](403-forbidden.md), [404 Not Found](404-not-found.md)
 
 ## 例
 

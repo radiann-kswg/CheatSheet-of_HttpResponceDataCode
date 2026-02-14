@@ -21,7 +21,7 @@
 ## 関連ヘッダー / 関連ステータス
 
 - 関連ヘッダー: `If-None-Match`, `If-Modified-Since`, `ETag`, `Last-Modified`, `Cache-Control`, `Vary`
-- 関連ステータス: `200 OK`, `412 Precondition Failed`
+- 関連ステータス: [200 OK](../2xx-success/200-ok.md), [412 Precondition Failed](../4xx-client-error/412-precondition-failed.md)
 
 ## 例
 

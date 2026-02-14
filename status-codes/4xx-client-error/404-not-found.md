@@ -21,7 +21,7 @@
 
 ## 関連ヘッダー / 関連ステータス
 
-- 関連ステータス: `410 Gone`, `301 Moved Permanently`, `308 Permanent Redirect`
+- 関連ステータス: [410 Gone](410-gone.md), [301 Moved Permanently](../3xx-redirection/301-moved-permanently.md), [308 Permanent Redirect](../3xx-redirection/308-permanent-redirect.md)
 
 ## 例
 

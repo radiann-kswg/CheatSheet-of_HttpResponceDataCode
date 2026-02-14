@@ -21,7 +21,7 @@
 ## 関連ヘッダー / 関連ステータス
 
 - 関連ヘッダー: `Expect`（特に `100-continue`）
-- 関連ステータス: `417 Expectation Failed`（期待が満たせない）
+- 関連ステータス: [417 Expectation Failed](../4xx-client-error/417-expectation-failed.md)（期待が満たせない）
 
 ## 例
 

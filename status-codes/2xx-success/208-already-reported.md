@@ -18,7 +18,7 @@
 
 ## 関連ヘッダー / 関連ステータス
 
-- 関連ステータス: `207 Multi-Status`, `200 OK`
+- 関連ステータス: [207 Multi-Status](207-multi-status.md), [200 OK](200-ok.md)
 
 ## 例
 

@@ -20,7 +20,7 @@
 ## 関連ヘッダー / 関連ステータス
 
 - 関連ヘッダー: `Early-Data`
-- 関連ステータス: `503 Service Unavailable`（負荷等による一時拒否とは意味が異なる）
+- 関連ステータス: [503 Service Unavailable](../5xx-server-error/503-service-unavailable.md)（負荷等による一時拒否とは意味が異なる）
 
 ## 例
 

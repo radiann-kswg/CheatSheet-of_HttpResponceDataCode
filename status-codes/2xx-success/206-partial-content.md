@@ -21,7 +21,7 @@
 ## 関連ヘッダー / 関連ステータス
 
 - 関連ヘッダー: `Range`, `Content-Range`, `If-Range`
-- 関連ステータス: `200 OK`, `416 Range Not Satisfiable`
+- 関連ステータス: [200 OK](200-ok.md), [416 Range Not Satisfiable](../4xx-client-error/416-range-not-satisfiable.md)
 
 ## 例
 

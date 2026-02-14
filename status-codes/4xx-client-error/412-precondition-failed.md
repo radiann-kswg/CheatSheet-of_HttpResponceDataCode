@@ -21,7 +21,7 @@
 ## 関連ヘッダー / 関連ステータス
 
 - 関連ヘッダー: `ETag`, `If-Match`, `If-Unmodified-Since`
-- 関連ステータス: `304 Not Modified`, `428 Precondition Required`, `409 Conflict`
+- 関連ステータス: [304 Not Modified](../3xx-redirection/304-not-modified.md), [428 Precondition Required](428-precondition-required.md), [409 Conflict](409-conflict.md)
 
 ## 例
 

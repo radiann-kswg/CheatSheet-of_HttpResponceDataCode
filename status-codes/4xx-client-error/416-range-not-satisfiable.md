@@ -21,7 +21,7 @@
 ## 関連ヘッダー / 関連ステータス
 
 - 関連ヘッダー: `Range`, `Content-Range`
-- 関連ステータス: `206 Partial Content`
+- 関連ステータス: [206 Partial Content](../2xx-success/206-partial-content.md)
 
 ## 例
 

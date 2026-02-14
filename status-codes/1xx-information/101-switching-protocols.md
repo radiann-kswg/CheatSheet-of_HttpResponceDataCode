@@ -21,7 +21,7 @@
 ## 関連ヘッダー / 関連ステータス
 
 - 関連ヘッダー: `Upgrade`, `Connection`
-- 関連ステータス: `426 Upgrade Required`（アップグレードが必要）
+- 関連ステータス: [426 Upgrade Required](../4xx-client-error/426-upgrade-required.md)（アップグレードが必要）
 
 ## 例
 

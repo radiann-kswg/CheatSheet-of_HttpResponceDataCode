@@ -21,7 +21,7 @@
 ## 関連ヘッダー / 関連ステータス
 
 - 関連ヘッダー: `WWW-Authenticate`, `Authorization`
-- 関連ステータス: `403 Forbidden`, `407 Proxy Authentication Required`
+- 関連ステータス: [403 Forbidden](403-forbidden.md), [407 Proxy Authentication Required](407-proxy-authentication-required.md)
 
 ## 例
 

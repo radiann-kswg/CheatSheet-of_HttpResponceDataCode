@@ -20,7 +20,7 @@
 
 ## 関連ヘッダー / 関連ステータス
 
-- 関連ステータス: `202 Accepted`（受理したが未完了）, `103 Early Hints`（事前ヒント）
+- 関連ステータス: [202 Accepted](../2xx-success/202-accepted.md)（受理したが未完了）, [103 Early Hints](103-early-hints.md)（事前ヒント）
 
 ## 例
 

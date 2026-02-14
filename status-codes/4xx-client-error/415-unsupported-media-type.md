@@ -21,7 +21,7 @@
 ## 関連ヘッダー / 関連ステータス
 
 - 関連ヘッダー: `Content-Type`, `Content-Encoding`
-- 関連ステータス: `400 Bad Request`, `406 Not Acceptable`
+- 関連ステータス: [400 Bad Request](400-bad-request.md), [406 Not Acceptable](406-not-acceptable.md)
 
 ## 例
 

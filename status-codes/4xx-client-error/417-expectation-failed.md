@@ -19,7 +19,7 @@
 ## 関連ヘッダー / 関連ステータス
 
 - 関連ヘッダー: `Expect`
-- 関連ステータス: `100 Continue`, `413 Content Too Large`
+- 関連ステータス: [100 Continue](../1xx-information/100-continue.md), [413 Content Too Large](413-content-too-large.md)
 
 ## 例
 

@@ -21,7 +21,7 @@
 ## 関連ヘッダー / 関連ステータス
 
 - 関連ヘッダー: `Location`（サーバーが推奨候補を示す場合）, `Vary`
-- 関連ステータス: `301 Moved Permanently`, `302 Found`, `308 Permanent Redirect`
+- 関連ステータス: [301 Moved Permanently](301-moved-permanently.md), [302 Found](302-found.md), [308 Permanent Redirect](308-permanent-redirect.md)
 
 ## 例
 

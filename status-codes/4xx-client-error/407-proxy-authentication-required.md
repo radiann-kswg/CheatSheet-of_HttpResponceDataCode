@@ -21,7 +21,7 @@
 ## 関連ヘッダー / 関連ステータス
 
 - 関連ヘッダー: `Proxy-Authenticate`, `Proxy-Authorization`
-- 関連ステータス: `401 Unauthorized`, `403 Forbidden`
+- 関連ステータス: [401 Unauthorized](401-unauthorized.md), [403 Forbidden](403-forbidden.md)
 
 ## 例
 

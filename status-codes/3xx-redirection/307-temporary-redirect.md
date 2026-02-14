@@ -21,7 +21,7 @@
 ## 関連ヘッダー / 関連ステータス
 
 - 関連ヘッダー: `Location`
-- 関連ステータス: `302 Found`, `303 See Other`, `308 Permanent Redirect`
+- 関連ステータス: [302 Found](302-found.md), [303 See Other](303-see-other.md), [308 Permanent Redirect](308-permanent-redirect.md)
 
 ## 例
 

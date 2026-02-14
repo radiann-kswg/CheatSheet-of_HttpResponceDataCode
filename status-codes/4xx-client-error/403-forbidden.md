@@ -20,7 +20,7 @@
 
 ## 関連ヘッダー / 関連ステータス
 
-- 関連ステータス: `401 Unauthorized`, `404 Not Found`
+- 関連ステータス: [401 Unauthorized](401-unauthorized.md), [404 Not Found](404-not-found.md)
 
 ## 例
 

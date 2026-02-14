@@ -14,7 +14,7 @@
 
 ## 関連
 
-- 300（Multiple Choices）や Vary/Accept-\* 系のネゴシエーション周りと関係
+- [300 Multiple Choices](../3xx-redirection/300-multiple-choices.md) や Vary/Accept-\* 系のネゴシエーション周りと関係
 
 ## 例
 

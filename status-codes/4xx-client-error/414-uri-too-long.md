@@ -20,7 +20,7 @@
 
 ## 関連ヘッダー / 関連ステータス
 
-- 関連ステータス: `400 Bad Request`
+- 関連ステータス: [400 Bad Request](400-bad-request.md)
 
 ## 例
 

@@ -22,7 +22,7 @@
 ## 関連ヘッダー / 関連ステータス
 
 - 関連ヘッダー: `Location`, `Cache-Control`
-- 関連ステータス: `308 Permanent Redirect`（恒久＋メソッド維持）, `302 Found`, `307 Temporary Redirect`
+- 関連ステータス: [308 Permanent Redirect](308-permanent-redirect.md)（恒久＋メソッド維持）, [302 Found](302-found.md), [307 Temporary Redirect](307-temporary-redirect.md)
 
 ## 例
 

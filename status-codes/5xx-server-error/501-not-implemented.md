@@ -15,7 +15,7 @@
 
 ## 関連ヘッダー / 関連ステータス
 
-- 関連ステータス: `405 Method Not Allowed`, `510 Not Extended`
+- 関連ステータス: [405 Method Not Allowed](../4xx-client-error/405-method-not-allowed.md), [510 Not Extended](510-not-extended.md)
 
 ## 例
 

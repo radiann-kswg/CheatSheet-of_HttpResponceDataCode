@@ -15,7 +15,7 @@
 ## 関連ヘッダー / 関連ステータス
 
 - 関連ヘッダー: `If-Match`, `If-Unmodified-Since`, `ETag`
-- 関連ステータス: `412 Precondition Failed`（条件はあるが一致しない）
+- 関連ステータス: [412 Precondition Failed](412-precondition-failed.md)（条件はあるが一致しない）
 
 ## 例
 

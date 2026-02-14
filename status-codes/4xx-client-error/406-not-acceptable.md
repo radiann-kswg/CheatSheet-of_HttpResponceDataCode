@@ -21,7 +21,7 @@
 ## 関連ヘッダー / 関連ステータス
 
 - 関連ヘッダー: `Accept`, `Accept-Language`, `Accept-Encoding`, `Vary`
-- 関連ステータス: `415 Unsupported Media Type`, `300 Multiple Choices`
+- 関連ステータス: [415 Unsupported Media Type](415-unsupported-media-type.md), [300 Multiple Choices](../3xx-redirection/300-multiple-choices.md)
 
 ## 例
 

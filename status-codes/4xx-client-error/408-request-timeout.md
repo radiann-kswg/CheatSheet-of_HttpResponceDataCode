@@ -21,7 +21,7 @@
 ## 関連ヘッダー / 関連ステータス
 
 - 関連ヘッダー: `Connection: close`
-- 関連ステータス: `504 Gateway Timeout`
+- 関連ステータス: [504 Gateway Timeout](../5xx-server-error/504-gateway-timeout.md)
 
 ## 例
 

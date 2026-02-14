@@ -16,7 +16,7 @@
 ## 関連ヘッダー / 関連ステータス
 
 - 関連ヘッダー: `Retry-After`
-- 関連ステータス: `503 Service Unavailable`（過負荷・メンテ等での一時不可）
+- 関連ステータス: [503 Service Unavailable](../5xx-server-error/503-service-unavailable.md)（過負荷・メンテ等での一時不可）
 
 ## 例
 

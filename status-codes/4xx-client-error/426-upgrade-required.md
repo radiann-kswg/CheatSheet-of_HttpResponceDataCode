@@ -15,7 +15,7 @@
 ## 関連ヘッダー / 関連ステータス
 
 - 関連ヘッダー: `Upgrade`, `Connection: Upgrade`
-- 関連ステータス: `101 Switching Protocols`
+- 関連ステータス: [101 Switching Protocols](../1xx-information/101-switching-protocols.md)
 
 ## 例
 
