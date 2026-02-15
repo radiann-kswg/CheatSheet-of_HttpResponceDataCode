@@ -42,6 +42,9 @@ RFC 9110 では、先頭 1 桁がレスポンスのクラス（1xx〜5xx）を�
 > "The non-standard code 444 closes a connection without sending a response header." \
 > — http://nginx.org/en/docs/http/ngx_http_rewrite_module.html
 
+- 実装依存・非標準ステータスコード集: [`status-codes/implementation-dependent/index.md`](status-codes/implementation-dependent/index.md)
+  - nginx / Cloudflare など、IANA 未登録コードのチートシートをまとめています。
+
 ## 1.Information
 
 ### [`100 Continue`](status-codes/1xx-information/100-continue.md)
