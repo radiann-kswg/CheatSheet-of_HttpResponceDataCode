@@ -40,6 +40,11 @@
 │   ├── 3xx-redirection/             # 3xx: Redirection
 │   ├── 4xx-client-error/            # 4xx: Client Error
 │   └── 5xx-server-error/            # 5xx: Server Error
+│   └── implementation-dependent/     # 実装依存 / 非標準（製品固有・慣習）
+│       ├── index.md                  # 実装依存カテゴリの目次
+│       ├── nginx-proprietary/        # nginx 独自
+│       ├── cloudflare-proprietary/   # Cloudflare 独自
+│       └── proxy-conventions/        # プロキシ慣習（一次情報があるもののみ収録）
 ├── _templates/                      # 執筆テンプレート
 │   └── status-code.md               # 1ファイル=1ステータスコードの推奨フォーマット
 ├── _wip/                            # 作業途中メモ（公開してよい内容のみ）
@@ -54,6 +59,15 @@
 - `slug` は理由句（Reason Phrase）から作るケバブケース（小文字＋ハイフン）を推奨します。
   - 例: `404 Not Found` → `404-not-found.md`
   - 例: `431 Request Header Fields Too Large` → `431-request-header-fields-too-large.md`
+
+#### 実装依存 / 非標準（implementation-dependent）
+
+- 製品固有・慣習のコードは `status-codes/implementation-dependent/` 配下に収録します。
+- さらに性質別にサブカテゴリを挟みます。
+  - `status-codes/implementation-dependent/nginx-proprietary/<code>-<slug>.md`
+  - `status-codes/implementation-dependent/cloudflare-proprietary/<code>-<slug>.md`
+  - `status-codes/implementation-dependent/proxy-conventions/<code>-<slug>.md`
+- 目次は `status-codes/implementation-dependent/index.md` を入口とし、サブカテゴリ側にも `index.md` を置きます。
 
 ### 追加・更新時の最低限手順
 
