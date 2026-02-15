@@ -21,7 +21,7 @@
 ## 関連ヘッダー / 関連ステータス
 
 - 検証中エラー: [495 (nginx) Client Certificate Verification Error](495-client-certificate-verification-error.md)
-- 標準の認証エラー文脈: [`401 Unauthorized`](../4xx-client-error/401-unauthorized.md)
+- 標準の認証エラー文脈: [`401 Unauthorized`](../../4xx-client-error/401-unauthorized.md)
 
 ## 例
 

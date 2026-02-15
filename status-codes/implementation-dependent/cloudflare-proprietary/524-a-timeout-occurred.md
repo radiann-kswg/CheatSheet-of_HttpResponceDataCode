@@ -21,7 +21,7 @@
 
 ## 関連ヘッダー / 関連ステータス
 
-- 502/504 の文脈と混同しやすい: [`504 Gateway Timeout`](../5xx-server-error/504-gateway-timeout.md)
+- 502/504 の文脈と混同しやすい: [`504 Gateway Timeout`](../../5xx-server-error/504-gateway-timeout.md)
 
 ## 例
 

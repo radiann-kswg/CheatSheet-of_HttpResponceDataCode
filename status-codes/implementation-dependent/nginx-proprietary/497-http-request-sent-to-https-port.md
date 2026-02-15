@@ -20,8 +20,8 @@
 
 ## 関連ヘッダー / 関連ステータス
 
-- 恒久的な https 化: [`308 Permanent Redirect`](../3xx-redirection/308-permanent-redirect.md)
-- 一時的な https 化: [`307 Temporary Redirect`](../3xx-redirection/307-temporary-redirect.md)
+- 恒久的な https 化: [`308 Permanent Redirect`](../../3xx-redirection/308-permanent-redirect.md)
+- 一時的な https 化: [`307 Temporary Redirect`](../../3xx-redirection/307-temporary-redirect.md)
 
 ## 例
 

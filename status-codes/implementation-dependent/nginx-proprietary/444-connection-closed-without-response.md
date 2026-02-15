@@ -20,8 +20,8 @@
 
 ## 関連ヘッダー / 関連ステータス
 
-- 標準的に拒否理由を返すなら [`403 Forbidden`](../4xx-client-error/403-forbidden.md)
-- レート制限なら [`429 Too Many Requests`](../4xx-client-error/429-too-many-requests.md)
+- 標準的に拒否理由を返すなら [`403 Forbidden`](../../4xx-client-error/403-forbidden.md)
+- レート制限なら [`429 Too Many Requests`](../../4xx-client-error/429-too-many-requests.md)
 
 ## 例
 

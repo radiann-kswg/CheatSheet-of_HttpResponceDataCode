@@ -22,7 +22,7 @@
 
 - クライアント証明書未提示: [496 (nginx) Client Certificate Required](496-client-certificate-required.md)
 - HTTPS ポートへの誤送信: [497 (nginx) HTTP Request Sent to HTTPS Port](497-http-request-sent-to-https-port.md)
-- 標準の認証エラー文脈: [`401 Unauthorized`](../4xx-client-error/401-unauthorized.md)
+- 標準の認証エラー文脈: [`401 Unauthorized`](../../4xx-client-error/401-unauthorized.md)
 
 ## 例
 
