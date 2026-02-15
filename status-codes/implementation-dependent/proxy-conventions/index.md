@@ -8,5 +8,9 @@
 
 ## 追加候補（調査中）
 
-- 598
-- 599
+- [`598 (Alibaba Cloud ER) ER is throttled / blocked`](598-er-throttled-or-blocked.md)
+- [`599 (Alibaba Cloud ER) Unknown error requesting/initializing context`](599-er-context-unknown-error.md)
+
+## 注意
+
+- 同じ 598/599 でも、製品や実装によって **意味が異なる**（または別の用途で使われる）可能性があります。

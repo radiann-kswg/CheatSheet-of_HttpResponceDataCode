@@ -32,3 +32,4 @@ RFC / IANA レジストリに載らない「製品固有のステータスコー
 ## Proxy
 
 - 598/599 などは、出典が安定して確認できたものから追加します: [`proxy-conventions/index.md`](proxy-conventions/index.md)
+  - Alibaba Cloud（EdgeRoutine, ER）の定義例: [`598`](proxy-conventions/598-er-throttled-or-blocked.md), [`599`](proxy-conventions/599-er-context-unknown-error.md)
